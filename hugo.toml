@@ -1,0 +1,31 @@
+baseURL = 'https://example.org/'
+title = 'sw1tech'
+theme                            = "introduction"
+DefaultContentLanguage           = "en"
+
+[params]
+    themeStyle = "auto"
+    showMenu = false
+    fadeIn = false
+
+    [[params.social]]
+        url = "https://github.com/sw1tech"
+        icon = "github"
+        icon_pack = "fab"
+
+[languages]
+    [languages.en]
+        languageName     = "English"
+        languageCode     = "en-us"
+        contentDir       = "content/en"
+        weight           = 0
+        [languages.en.params]
+            footerText   = " "
+
+    [languages.ru]
+        languageName     = "Russian"
+        languageCode     = "ru"
+        contentDir       = "content/ru"
+        weight           = 1
+        [languages.ru.params]
+            footerText   = " "
